@@ -18,6 +18,8 @@ This repository contains my personal notes on various iOS development concepts, 
    - [Struct](./swift/Struct.swift)
    - [Enum](./swift/Enum.swift)
    - [AccessControl](./swift/AccessControl.swift)
+  - [Arrays](./swift/Arrays.swift)
+ 
   
 
 ## 🧠 Purpose
