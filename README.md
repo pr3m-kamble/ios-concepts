@@ -20,8 +20,8 @@ This repository contains my personal notes on various iOS development concepts, 
    - [AccessControl](./swift/AccessControl.swift)
    - [Arrays](./swift/Arrays.swift)
    - [Dictionaries](./swift/Dictionaries.swift)
+   - [FoorLoops](./swift/FoorLoops.swift)
 
- 
   
 
 ## 🧠 Purpose
