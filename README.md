@@ -23,7 +23,7 @@ This repository contains my personal notes on various iOS development concepts, 
    - [FoorLoops](./swift/FoorLoops.swift)
 
 ## SwiftUI Basics
-  - [Colors](./swift%20UI/Colors.swift)
+  - [Colors](./SwiftUI Basic/Colors.swift) 
 
 
 ## 🧠 Purpose
