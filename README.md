@@ -28,7 +28,8 @@ This repository contains my personal notes on various iOS development concepts, 
   - [Gradient](./SwiftUI-Basic/Gradient.swift)
   - [Image](./SwiftUI-Basic/Image.swift) 
   - [Shapes](./SwiftUI-Basic/Shapes.swift) 
-  - [Text](./SwiftUI-Basic/Text.swift) 
+  - [Text](./SwiftUI-Basic/Text.swift)
+  - [BackgroundAndOverlay](./SwiftUI-Basic/BackgroundAndOverlay.swift)
    
 ## 🧠 Purpose
 
