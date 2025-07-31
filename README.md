@@ -30,6 +30,8 @@ This repository contains my personal notes on various iOS development concepts, 
   - [Shapes](./SwiftUI-Basic/Shapes.swift) 
   - [Text](./SwiftUI-Basic/Text.swift)
   - [BackgroundAndOverlay](./SwiftUI-Basic/BackgroundAndOverlay.swift)
+  - [Stack](./SwiftUI-Basic/Stack.swift)
+  - [Padding](./SwiftUI-Basic/Padding.swift)
    
 ## 🧠 Purpose
 
