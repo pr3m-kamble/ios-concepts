@@ -33,7 +33,7 @@ This repository contains my personal notes on various iOS development concepts, 
   - [Stack](./SwiftUI-Basic/Stack.swift)
   - [Padding](./SwiftUI-Basic/Padding.swift)
    
-## 🧠 Purpose
+## 🧠 Purpose..
 
 This repo is to help me and others understand core iOS development concepts by breaking them down into concise, topic-based Swift files.
 
