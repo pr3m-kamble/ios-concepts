@@ -10,7 +10,7 @@ struct ToggleBootcamp: View {
         VStack{
 
             HStack{
-                Text(toggleIsOn ? "Light Mode" : "Dark Mode")
+                Text(toggleIsOn ? "Dark Mode" : "Light Mode")
                     .foregroundStyle(toggleIsOn ? Color.white : Color.black)
             }
             .font(.title)
