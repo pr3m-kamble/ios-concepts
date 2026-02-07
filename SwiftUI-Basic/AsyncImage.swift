@@ -1,11 +1,39 @@
+
 import SwiftUI
 
 struct AsyncImageBootcamp: View {
-    private let url = URL(string: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16e-white-witb-202502?wid=346&hei=784&fmt=jpeg&qlt=90&.v=ZG5hQXIwb1R6bHhDaFVoM1hPZ3dDbEpia2hDRHJhZUlvOVZCVHBVMWlwcHZkVHJuc3hORjJFMmpVOWZFSTFGSk14MXJScFRZN3Y5OWZsRXVrN1k4cFZEUGFrWHVHNVFuSGxCUnlnYlN0dkk")
+    
+    let url = URL(string: "https://picsum.photos/400")
     
     var body: some View {
-        AsyncImage(url: url)
-            .frame(width: 200, height: 200)
+        AsyncImage(url: url) { phase in
+            switch phase {
+            case .empty:
+                ProgressView()
+            case .success(let returnedImage):
+                returnedImage
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, height: 100)
+                    .cornerRadius(20)
+            case .failure:
+                Image(systemName: "questionmark")
+                    .font(.headline)
+            default:
+                Image(systemName: "questionmark")
+                    .font(.headline)
+            }
+        }
+        //        AsyncImage(url: url, content: { returnedImage in
+//            returnedImage
+//               .resizable()
+//               .scaledToFit()
+//               .frame(width: 200, height: 200)
+//        }, placeholder: {
+//                
+//            ProgressView()
+//        })
+//           
     }
 }
 
